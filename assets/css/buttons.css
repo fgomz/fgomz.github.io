@@ -1,0 +1,38 @@
+.yellow{
+    background-color: #e19c35;
+}
+
+button.yellow:hover{
+    background-color: #f2b149;
+}
+
+.green{
+    background-color: #2d4a2b;
+}
+
+button.green:hover{
+    background-color: #4A6B3B;
+}
+
+.sl {
+    border-radius: 30px;
+    padding: 10px;
+    width: 200px;
+    color: white;
+    text-align: center;
+    margin: 20px;
+    border-width: 0px;
+}
+
+.sm {
+    border-radius: 20px;
+    padding: 10px;
+    width: 100px;
+    color: white;
+    text-align: center;
+    margin: 20px;
+    border-width: 0px;
+}
+
+
+
