@@ -16,7 +16,7 @@ button.green:hover{
 
 .sl {
     border-radius: 30px;
-    padding: 10px;
+    height: 40px;
     width: 200px;
     color: white;
     text-align: center;
@@ -26,7 +26,7 @@ button.green:hover{
 
 .sm {
     border-radius: 20px;
-    padding: 10px;
+    height: 30px;
     width: 100px;
     color: white;
     text-align: center;

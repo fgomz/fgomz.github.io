@@ -1,0 +1,80 @@
+/********* GLOBAL STYLES *********/
+
+.flex-row-top {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+  justify-content: center;
+}
+
+.flex-row-center {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  column-gap: 30px;
+  row-gap: 30px;
+}
+
+.flex-column-center {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.justify-space-around{
+  width: 100%;
+  justify-content: space-around;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.flex-column{
+  display: flex;
+  flex-direction: column;
+}
+
+.align-center{
+  align-content: center;
+  align-items: center;
+}
+
+.align-top{
+  align-content: flex-start;
+  align-items: flex-start;
+}
+
+.justify-center{
+  justify-content: center;
+}
+
+.box {
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: azure;
+  color: #d9480f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/******* Media query section ********/
+
+@media screen and (max-width: 855px) {    
+
+  .flex-row-center {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+  }
+
+
+}
